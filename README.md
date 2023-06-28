@@ -29,7 +29,7 @@ sudo apt install gcc-aarch64-linux-gnu
 sudo apt install qemu-system-arm
 ```
 
-3) The image or the animation can be played from it's own directory (`/image` or `/animation`) with
+3) The image or the animation can be played from its own directory (_/image_ or _/animation_) with
 
 ```bash
 make
@@ -38,7 +38,7 @@ make run
 
 The animation **speed** and the animation **character** can be changed in the first lines of the app.s code file.
 
-Note: In Arch-based distros the package `gcc-aarch64-linux-gnu` is named `aarch64-linux-gnu-gcc`.
+Note: In Arch-based distros the package _gcc-aarch64-linux-gnu_ is named _aarch64-linux-gnu-gcc_.
 
 <br>
 <a href="https://www.youtube.com/watch?v=yxyNmy3QDX0">
@@ -51,10 +51,10 @@ Note: In Arch-based distros the package `gcc-aarch64-linux-gnu` is named `aarch6
 
 | File                                  | Description           |
 | -----------                           | -----------           |
-| [app.s](Animation/app.s)              | Main application file |
-| [funciones.s](Animation/funciones.s)  | Functions for drawing various elements used in the main module          |
-| [memmap](Animation/memmap)            | Description of the program's memory layout and section placement        |
-| [start.s](Animation/start.s)          | Configuration and initialization of the framebuffer on the Raspberry Pi |
+| [app.s](animation/app.s)              | Main application file |
+| [funciones.s](animation/funciones.s)  | Functions for drawing various elements used in the main module          |
+| [memmap](animation/memmap)            | Description of the program's memory layout and section placement        |
+| [start.s](animation/start.s)          | Configuration and initialization of the framebuffer on the Raspberry Pi |
 
 ## Qemu bug
 
